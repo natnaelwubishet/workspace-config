@@ -21,4 +21,8 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # move zsh, tmux and vim configuration files
-cp conf_files/* ~
+cd conf_files
+cp .zshrc .vimrc .tmux.conf ~
+
+# move alias zsh to oh-my-zsh 
+cp alias.zsh ~/.oh-my-zsh/lib/
