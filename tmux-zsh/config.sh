@@ -12,7 +12,7 @@ sudo apt-get install git zsh tmux fish -y
 sudo chsh -s /bin/zsh
 
 # install oh-my-zsh
-git clone git://github.com/robbyrussell/ob-my-zsh.git ~/.oh-my-zsh
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 
 # install vim bundle manager vundle
